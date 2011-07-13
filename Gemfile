@@ -31,6 +31,11 @@ group :development do
 end
 
 group :test do
+  gem 'autotest-standalone', :require => 'autotest'
+  gem 'autotest-rails-pure'
+  gem 'term-ansicolor'
+  gem 'turn'
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
+  gem 'spork','0.9.0.rc8'
 end
